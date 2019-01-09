@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="author" content="Jacek Jarczok" />
+  <meta name="robots" content="index, follow" />
+  <title>Foodie</title>
+  <meta name="description" content="Picture of stylish octopus dish with ingredients descriptions.">
+  <meta name="keywords" content="css exercise, food photography, octopus dish" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" rel="stylesheet">
+
+</head>
+
+<!-- This content was created for learning purposes -->
+<body>
+
+<header>
+    <h1>Are you a FOODIE ?</h1>
+    <div class="tooltip"><span style="font-size: .8em;">&#8674;</span> Check the ingredients!
+        <span class="tooltiptext">Just hover your mouse over the dish</span>
+    </div>
+</header>
+
+<main>
+    <div id="container">
+        <img src="img/octopus_mobile.jpg"
+                  srcset="img/octopus_mobile@2x.jpg 2x"
+                  alt="Boiled octopus with cucumber, capers and beet leaves.">
+        <div id="octopus_div" class="onhover">
+            <div id="octopus_explanation" class="border_right">
+                <p class="ingredient_right">Octopus</p>
+            </div>
+        </div>
+        <div id="cucumber_div"  class="onhover">
+            <div id="cucumber_explanation" class="border_left">
+                <p class="ingredient_left">Cucumber</p>
+            </div>
+        </div>
+        <div id="beetleaves_div" class="onhover">
+            <div id="beetleaves_explanation" class="border_left">
+                <p class="ingredient_left">Beet&nbsp;leaves</p>
+            </div>
+        </div>
+        <div id="caper_left_div" class="onhover">
+            <div id="caperleft_explanation" class="border_left">
+                <p class="ingredient_left">Caper</p>
+            </div>
+        </div>
+        <div id="caper_right_div" class="onhover">
+            <div id="caperright_explanation" class="border_right">
+                <p class="ingredient_right">Caper</p>
+            </div>
+        </div>
+        <div id="caper_left_div_copy">
+            <div id="caperleft_explanation" class="border_left">
+                <p class="ingredient_left">Caper</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>Photography and design: Jacek Jarczok</p>
+</footer>
+
+</body>
+
+</html>
